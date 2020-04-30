@@ -1,64 +1,69 @@
 body {
-font-family: Helvetica, Arial, sans-serif;
- background-color: #D6FFEE;
-  color: #222;
+    font-family: Helvetica, Arial, sans-serif;
+    background-color: #D6FFEE;
+    color: #222;
 }
 h1, h2, h3 {
-font-family: Georgia, "Times New Roman", serif;
-text-align: center;
+    font-family: Georgia, "Times New Roman", serif;
+    text-align: center;
 }
 h1 {
-font-size: 44px;
-line-height: 1;
-margin-bottom: 0;
+    font-size: 44px;
+    line-height: 1;
+    margin-bottom: 0;
 }
 
 h1 small {
-font-size: 30px;
+    font-size: 30px;
 }
 header h2 {
-font-size: 18px;
-font-style: italic;
-line-height: 1.5;
+    font-size: 18px;
+    font-style: italic;
+    line-height: 1.5;
 }
 main h2 {
-font-size: 30px;
+    font-size: 30px;
 }
 img, video{
-display: block;
-margin: 0 auto;
+    display: block;
+    margin: 0 auto;
 }
 nav ul {
-padding: 0;
-margin: 0;
+    padding: 0;
+    margin: 0;
 }
 
 nav li {
-padding: 0;
-margin: 0;
-list-style-type: none;
-padding: 5px;
-text-align: center;
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+    padding: 5px;
+    text-align: center;
 }
 article ul {
-list-style-type: square;
+    list-style-type: square;
 }
 p {
-line-height: 1.5;
+    line-height: 1.5;
 }
 aside {
-width: 400px;
-float: right;
-padding: 20px;
-border-left: 3px solid #690;
-font-style: oblique;
+    width: 400px;
+    float: right;
+    padding: 20px;
+    border-left: 3px solid #690;
+    font-style: oblique;
+    border: 1px solid red;
 }
 a:link, a:visited, a:active {
- color: #FF4A4A;
+     color: #FF4A4A;
 }
 a:hover {
     color: #4E377D;
 }
+.container {
+     max-width: 900px;
+     margin: 0 auto;
+}
 .byline {
-text-align: center;
+    text-align: center;
 }
